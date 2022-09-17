@@ -1,14 +1,14 @@
 module.exports = {
     apps: [
         {
-            name: "accounting_v2",
-            port: 3000,
-            script : "./dist/main.js",
+            name: "job_seeker",
+            port: 5000,
+            script : "./server.js",
             watch: true,
             args: "start",
             env: {
                 "NODE_ENV": "production",
-                "PORT": 3000
+                "PORT": 5000
             }
         }
     ]

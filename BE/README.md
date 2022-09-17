@@ -34,6 +34,12 @@ _*nb : jika tidak ada DBMS postgres di local_
 browse di http:localhost:8080
 ```
 
+#Create database 
+```sh
+open sql command
+create database jobs;
+```
+
 #menjalankan Migration
 ```sh
 npx sequelize db:migrate
